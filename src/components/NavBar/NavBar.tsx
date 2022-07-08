@@ -6,7 +6,7 @@ const NavBar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
         <Link className="navbar-brand" to="/">
-          My Favorite Videos
+          My Videos
         </Link>
         <div>
           <ul className="navbar-nav ml-auto">
