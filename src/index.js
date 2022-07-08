@@ -21,6 +21,7 @@ root.render(
         <Routes>
           <Route exact path='/' element={<VideoList></VideoList>}></Route>
           <Route path='/create-video' element={<Form></Form>}></Route>
+          <Route path='/update/:id' element={<Form></Form>}></Route>
         </Routes>
         <ToastContainer></ToastContainer>
       </div>

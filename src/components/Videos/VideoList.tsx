@@ -18,13 +18,9 @@ const VideoList = () => {
   }, []);
 
   return (
-    <div>
+    <div className="row">
       {videos.map((v) => {
-        return (
-          <div key={v._id}>
-            <VideoItem video={v}></VideoItem>
-          </div>
-        );
+        return <VideoItem video={v} key={v._id} loadVideos={loadVideos} />;
       })}
     </div>
   );
